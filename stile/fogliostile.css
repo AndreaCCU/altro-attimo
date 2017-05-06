@@ -1,0 +1,134 @@
+body {
+	width: auto;
+	margin: 0 auto;
+	background-image: url(../img/montagne4.jpg);
+	background-position: 0% 0%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+	
+header {
+	width: 1000px;
+	height: 80px;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+}
+
+nav {
+	width: 1000px;
+	height: 40px;
+	background-color: #000000;
+	margin: 0 auto;
+	text-align: center;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	font-size: 120%;
+	padding-top: 15px;
+	font-family: 'Nunito', sans-serif;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:-webkit-any-link {
+	color: #FFFFFF;
+    text-decoration: none;
+}
+
+div {
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+
+footer {
+	width: 1000px;
+	height: 115px;
+	margin: 0 auto;
+	background-color: #000000;
+}
+
+p:first-child {
+	padding-top: 20px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+}
+
+p:last-child {
+	padding-bottom: 100px;
+	margin-bottom: 0px;
+}
+
+p {
+	padding: 0% 20% 0% 20%;
+	color: #5B5B5B;
+	font-family: 'Nunito', sans-serif;
+	font-size: 108%;
+}
+
+ul {
+	font-family: 'Nunito', sans-serif;
+	margin: 0 auto;
+	padding-top: 22px;
+	font-size: 110%;
+}
+
+#home_logo {
+	width: 500px;
+	padding-top: 80px;
+	margin-left: 20%;
+}
+
+#bottone_up {
+	width: 150px;
+/*	margin-left: 82%; */
+	padding: 10px;
+	float: right;
+}
+
+#collegamento {
+	color: #A62320;
+	font-size: 95%;
+	font-family: 'Nunito', sans-serif;
+	padding-left: 50px;
+}
+
+/*pagina due, o almeno da qui ho cominciato a lavorare su quella*/
+
+h1 {
+	margin: 0 auto;
+	color: #A62320;
+	font-size: 120%;
+	font-family: 'Nunito', sans-serif;
+	padding: 5% 20% 2% 23%;
+}
+
+h2 {
+	margin: 0 auto;
+	color: #A62320;
+	font-size: 110%;
+	font-family: 'Nunito', sans-serif;
+	padding: 5% 20% 2% 23%;
+}
+
+#logo_collegamento {
+	width: 100px;
+	text-align: left;
+	padding-left: 40px;
+	float: left;
+}
+
+
+
+
+
+/* DOmande per la prof:
+- Cos'è una lista conplessa?;
+- Va bene il colegamento alla pagina senza l'ancora comenel bottone UP?;
+- Buon server free tipo Altervista?;
+*/
+
+
+/* Cose da sistemare:
+- Menù nel footer;
+- Selettore per articoli e poesie nella sezione pubblicazioni;
+*/
