@@ -1,6 +1,5 @@
 body {
 	width: auto;
-	margin: 0 auto;
 	background-image: url(../img/montagne4.jpg);
 	background-position: 0% 0%;
 	background-repeat: no-repeat;
@@ -12,14 +11,13 @@ header {
 	width: 1000px;
 	height: 80px;
 	background-color: #FFFFFF;
-	margin: 0 auto;
+	margin: 0 auto;	
 }
 
 nav {
 	width: 1000px;
 	height: 40px;
 	background-color: #000000;
-	margin: 0 auto;
 	text-align: center;
 	border-bottom-right-radius: 6px;
 	border-bottom-left-radius: 6px;
@@ -27,11 +25,22 @@ nav {
 	padding-top: 15px;
 	font-family: 'Nunito', sans-serif;
 	color: #FFFFFF;
-	text-decoration: none;
 }
-a:-webkit-any-link {
+
+main {
+	background-color: #FFFFFF;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+a {
 	color: #FFFFFF;
     text-decoration: none;
+    margin: 0 auto;
+}
+
+a:focus {
+	color:#808080;
 }
 
 div {
@@ -45,6 +54,7 @@ footer {
 	height: 115px;
 	margin: 0 auto;
 	background-color: #000000;
+	clear: both;
 }
 
 p:first-child {
@@ -80,19 +90,33 @@ ul {
 
 #bottone_up {
 	width: 150px;
-/*	margin-left: 82%; */
 	padding: 10px;
 	float: right;
 }
 
-#collegamento {
+#collegamento_pub_home {
 	color: #A62320;
 	font-size: 95%;
 	font-family: 'Nunito', sans-serif;
-	padding-left: 50px;
+	padding-left: 100px;
 }
 
-/*pagina due, o almeno da qui ho cominciato a lavorare su quella*/
+ #news_letter {
+	background-color: black;
+	 width: 35px;
+	float: right;
+	padding-top: 14px;
+	padding-right: 14px;
+} 
+
+#map_data {
+	padding: 100px;
+	margin: 0 auto;
+}
+
+/*********************************/
+/* CSS ALTRE PAGINE/DA PAGINA DUE*/
+/*********************************/
 
 h1 {
 	margin: 0 auto;
@@ -102,7 +126,7 @@ h1 {
 	padding: 5% 20% 2% 23%;
 }
 
-h2 {
+h2, h3 {
 	margin: 0 auto;
 	color: #A62320;
 	font-size: 110%;
@@ -112,23 +136,271 @@ h2 {
 
 #logo_collegamento {
 	width: 100px;
-	text-align: left;
 	padding-left: 40px;
 	float: left;
 }
 
+h3 {
+	font-size: 90%;
+	padding-top: 0px;
+}
+
+aside {
+	float: left;
+	padding: 7px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-top: 50px;
+	margin-left: 40px;
+	color: #A62320;
+	font-size: 100%;
+	font-family: 'Nunito', sans-serif;
+	display: inline-block;
+	clear: both;
+	background-color: #E6E6E6;
+	border-radius: 4px;
+}
+
+.aside_menu a {
+	color: #A62320;
+	font-weight: bold;
+}
+
+#mail {
+	color: #A62320;
+	padding-left: 20px;
+}
+
+.sup_middle_block_1 {
+	width: 250px;
+	margin: 0;
+	padding: 5% 0% 5% 20%;
+	display: inline-block;
+	text-align: left;
+	float: left;
+	clear: left;
+}
+
+.sup_middle_block_2 {
+	width: 250px;
+	margin: 0;
+	padding: 5% 20% 5% 0%;
+	display: inline-block;
+	text-align: left;
+	float: right;
+	clear: right;
+}
+
+.sup_storia {
+	clear: both;
+}
+
+.sup_middle_block_tot p {
+	padding: 0px;
+} 
+
+/***********************/
+/******** LISTE ********/
+/***********************/
+
+.archivio_list {
+	width: 600px;
+	margin-left: 200px;
+	margin-right: 200px;
+	background-color: #E6E6E6;
+	padding: 0px;
+	border-radius: 4px;
+	padding-bottom: 40px;
+}
+
+.list_box {
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+ul, ol {
+	list-style-type: none;
+}
+
+.archivio_list h1, .archivio_list h2, .archivio_list ul {
+	padding: 10px 40px 10px 40px;
+}
+
+.archivio_list h1 {
+	padding-top: 25px;
+	font-size: 135%;
+}
+
+.archivio_list h2, {
+	font-size: 120%;
+}
+
+.archivio_list h3 {  
+	text-align: left;
+	padding-left: 40px;
+	padding-top: 20px;
+}
+
+.archivio_list ul {
+	font-size: 100%;
+}
+
+/**************/
+/* TABELLE ****/
+/**************/
 
 
+table {
+	width: 350px;
+	margin: 0 auto;
+	border: 2px solid white;
+	border-collapse: separate;
+	border-spacing: 3px;
+
+	padding-bottom: 50px;
+	clear: both;
+}
+
+td, th {
+	padding: 10px;
+	text-align: left;
+}
+
+.tb_color {
+	background-color: #666666; 
+}
+
+th {
+	background-color: #A62320;
+	font-size: 90%;
+	font-family: 'Nunito', sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+}
 
 
-/* DOmande per la prof:
-- Cos'è una lista conplessa?;
-- Va bene il colegamento alla pagina senza l'ancora comenel bottone UP?;
-- Buon server free tipo Altervista?;
-*/
+tr:nth-child(odd) td {
+	background-color: #CCCCCC;
+}
+
+tr:nth-child(even) td {
+	background-color: #E6E6E6;
+}
+
+th:last-child {
+/*	border: none; */
+}
+
+tr:nth-child(2) th {
+/*	border: none; */
+}
+
+tr {
+	font-size: 90%;
+	font-family: 'Nunito', sans-serif;
+}
+
+caption {
+	font-family: 'Nunito', sans-serif;
+	font-style: italic;
+	text-align: left;
+	padding-left: 50px;
+	padding-bottom: 10px;
+}
+
+#tb_left {
+	margin-left: 50px;
+	padding-right: 20px;
+	display: inline-block;
+	margin-top: 50px;
+
+}
+
+#tb_right {
+	margin-right: 50px;
+	padding-left: 20px;
+	display: inline-block;
+	margin-top: 50px;
+
+}
+
+.title_archivio {
+	font-size: 180%;
+	color: #666666;
+}
+
+.all_tabelle {
+	text-align: center;
+}
+
+/******************************/
+/********* BOOTSTRAP **********/
+/******************************/
+
+.form {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.col-10 {
+	max-width: 450px;
+	border-radius: 3px;
+}
+
+.form-group_row {
+	max-width: 500px;
+	padding: 7px;
+	background-color: #E6E6E6;
+	text-align: left;
+}
+
+.form-group_row:first-child {
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+.form-group_row:last-child {
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+.label {
+	padding: 4px;
+	border-radius: 4px;
+}
+
+.form-control {
+	width: 450px;
+	background-color: #FFFFFF;
+}
+
+.col-2_col-form-label {
+	font-family: 'Nunito', sans-serif;
+	font-size: 100%;
+	padding-left: 35px;
+	color: #A62320;
+}
+
+div label {
+	max-width: 250px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 100%;
+} 
+
+button {
+	width: 100px;
+	height: 35px;
+	border-radius: 3px;
+	background-color: #A62320;
+	color: #FFFFFF;
+}
+
+.offset-sm-2_col-sm-10 {
+	max-width: 450px;
+	text-align: center;
+	background-color: #E6E6E6;
+	padding: 15px;
+}
 
 
-/* Cose da sistemare:
-- Menù nel footer;
-- Selettore per articoli e poesie nella sezione pubblicazioni;
-*/
