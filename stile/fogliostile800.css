@@ -1,0 +1,186 @@
+
+header {
+	width: 400px;
+	height: 80px;
+}
+
+main {
+	width: 400px;
+}
+
+div {
+	width: 400px;
+}
+
+p {
+	padding: 0% 13% 0% 13%;
+
+}
+
+footer {
+	width: 400px;
+	height: 118px;
+}
+
+#bottone_up {
+	width: 120px;
+	padding-top: 22px
+}
+
+#home_logo {
+	width: 340px;
+	padding: 30px;
+	padding-top: 50px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#logo_collegamento {
+	width: 100px;
+	padding: 10px 150px 20px 150px;
+	float: none;
+}
+
+aside {
+	display: inline-block;
+	float: none;
+	margin: 0 auto;
+	width: 350px;
+	padding: 23px;
+}
+
+.all_tabelle {
+	padding: 0px;
+	margin: 0 auto;
+	width: 400px;
+}
+
+#tb_right, #tb_left {
+	padding: 10px;
+	margin: 0 auto;
+	width: 360px;
+}
+
+.list_box {
+	margin: 0 auto;
+	padding: 10px;
+	width: 380px;
+}
+
+.archivio_list {
+	margin: 0 auto;
+	padding: 0px;
+	width: 380px;
+}
+
+.sup_middle_block_1, .sup_middle_block_2 {
+	width: 296px;
+	padding-left: 52px;
+	padding-right: 52px;
+	display: inline-block;
+
+}
+
+.sup_middle_block_tot h2 {
+	width: 228px;
+	padding-left: 40px;
+}
+
+/*******/
+
+.col-10 {
+	max-width: 350px;
+}
+
+.form-group_row {
+	max-width: 375px;
+}
+
+.form-control {
+	width: 350px;
+}
+
+div label {
+	max-width: 150px;
+} 
+
+
+.offset-sm-2_col-sm-10 {
+	max-width: 350px;
+}
+
+#news_letter {
+	visibility: hidden;
+}
+
+/*** Se non va la mappa ***/
+
+#map_data {
+	visibility: hidden;
+	width: 0px;
+	padding: 0px;
+}
+
+/*** Se non va il Burger ***/
+
+ nav {
+	width: 400px;
+	height: 70px;
+}
+
+nav a {
+	font-size: 100%;
+	text-align: center; 
+} 
+
+/***/
+
+.nav {
+    display:none;
+  }
+
+ 
+ .hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:7px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#000;  position:absolute; text-align:center; font-size:12px;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
+.menu ul li a:hover {  color: #666; text-decoration:none;}
+.menu a{text-decoration:none; color:#666;}
+.menu a:hover{text-decoration:none; color:#666;} 
+
+.menu {
+	display: inline-block;
+}
